@@ -1,12 +1,12 @@
 import './App.css';
 import React, { Fragment } from 'react';
-import UserProfile from './components/social-profile/user-profile';
+import UserProfile from './components/social-profile/UserProfile';
 import userData from './components/social-profile/user.json';
-import Statistics from './components/statistics/statistics';
+import Statistics from './components/statistics/Statistics';
 import statsData from './components/statistics/stats.json';
-import FriendsList from './components/friends-list/friends-list';
+import FriendsList from './components/friends-list/FriendsList';
 import friendsData from './components/friends-list/friends.json';
-import Transactions from './components/transactions/transactions';
+import Transactions from './components/transactions/Transactions';
 import transactionData from './components/transactions/data.json';
 
 function App() {

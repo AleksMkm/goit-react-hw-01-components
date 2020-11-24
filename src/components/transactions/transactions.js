@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import TableRow from './table-row';
+import TableRow from './TableRow';
 
 export default function Transactions({ items }) {
   return (
