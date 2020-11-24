@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
+import styles from './StatItem.module.css';
 
 export default function StatItem({ label, percentage }) {
   return (
     <Fragment>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span className={styles.label}>{label}</span>
+      <span className={styles.percentage}>{percentage}%</span>
     </Fragment>
   );
 }
