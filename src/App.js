@@ -1,5 +1,4 @@
 import './App.css';
-import React, { Fragment } from 'react';
 import UserProfile from './components/social-profile/UserProfile';
 import userData from './components/social-profile/user.json';
 import Statistics from './components/statistics/Statistics';
@@ -8,10 +7,11 @@ import FriendsList from './components/friends-list/FriendsList';
 import friendsData from './components/friends-list/friends.json';
 import Transactions from './components/transactions/Transactions';
 import transactionData from './components/transactions/data.json';
+import Container from './components/container/Container';
 
 function App() {
   return (
-    <div className="container">
+    <Container>
       <h2 className="task-title">task 1</h2>
       <UserProfile
         name={userData.name}
@@ -26,7 +26,7 @@ function App() {
       <FriendsList items={friendsData} />
       <h2 className="task-title">task 4</h2>
       <Transactions items={transactionData} />
-    </div>
+    </Container>
   );
 }
 
