@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React, { Fragment } from 'react';
-import styles from './TableRow.module.css';
 
 export default function TableRow({ type, amount, currency }) {
   return (
